@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         generateQuestion();
 
-        new CountDownTimer(30000, 1000) { // we want to last 30sec, so we write 30000, and we want to tick everysecend so we write 1000(milisec);
+        new CountDownTimer(30100, 1000) { // we want to last 30sec, so we write 30000, and we want to tick everysecend so we write 1000(milisec);
             @Override
             public void onTick(long l) {
 
